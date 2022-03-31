@@ -68,3 +68,17 @@
 [2022-03-31 06:54:51,361] {logging_mixin.py:109} INFO - [2022-03-31 06:54:51,360] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-03-31 06:54:51,416] {logging_mixin.py:109} INFO - [2022-03-31 06:54:51,416] {dag.py:2937} INFO - Setting next_dagrun for klook_activities to 2022-03-31T06:53:00+00:00
 [2022-03-31 06:54:51,441] {processor.py:171} INFO - Processing /opt/airflow/dags/qam_test.py took 1.222 seconds
+[2022-03-31 06:55:21,500] {processor.py:163} INFO - Started process (PID=249) to work on /opt/airflow/dags/qam_test.py
+[2022-03-31 06:55:21,503] {processor.py:642} INFO - Processing file /opt/airflow/dags/qam_test.py for tasks to queue
+[2022-03-31 06:55:21,506] {logging_mixin.py:109} INFO - [2022-03-31 06:55:21,505] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/qam_test.py
+[2022-03-31 06:55:22,461] {processor.py:654} INFO - DAG(s) dict_keys(['klook_activities']) retrieved from /opt/airflow/dags/qam_test.py
+[2022-03-31 06:55:22,472] {logging_mixin.py:109} INFO - [2022-03-31 06:55:22,472] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-31 06:55:22,508] {logging_mixin.py:109} INFO - [2022-03-31 06:55:22,508] {dag.py:2937} INFO - Setting next_dagrun for klook_activities to 2022-03-31T06:54:00+00:00
+[2022-03-31 06:55:22,518] {processor.py:171} INFO - Processing /opt/airflow/dags/qam_test.py took 1.025 seconds
+[2022-03-31 06:55:52,722] {processor.py:163} INFO - Started process (PID=267) to work on /opt/airflow/dags/qam_test.py
+[2022-03-31 06:55:52,735] {processor.py:642} INFO - Processing file /opt/airflow/dags/qam_test.py for tasks to queue
+[2022-03-31 06:55:52,742] {logging_mixin.py:109} INFO - [2022-03-31 06:55:52,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/qam_test.py
+[2022-03-31 06:55:56,875] {processor.py:654} INFO - DAG(s) dict_keys(['klook_activities']) retrieved from /opt/airflow/dags/qam_test.py
+[2022-03-31 06:55:56,995] {logging_mixin.py:109} INFO - [2022-03-31 06:55:56,994] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-03-31 06:55:57,273] {logging_mixin.py:109} INFO - [2022-03-31 06:55:57,186] {dag.py:2937} INFO - Setting next_dagrun for klook_activities to 2022-03-31T06:54:00+00:00
+[2022-03-31 06:55:57,379] {processor.py:171} INFO - Processing /opt/airflow/dags/qam_test.py took 4.688 seconds
