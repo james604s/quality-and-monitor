@@ -74,6 +74,31 @@ dag = DAG('klook_activities',
           default_args=default_args,
           catchup=False)
 
+begin = DummyOperator(
+    task_id="begin"
+)
+
+end = DummyOperator(
+    task_id="end"
+)
+
+uci_check_http = HttpSensor()
+
+uci_dwd_data = PythonOperator()
+
+uci_unzip = PythonOperator()
+
+uci_transfor = PythonOperator()
+
+uci_uci_ge_validate = GreatExpectationOperator()
+
+uci_data_to_sql = PythonOperator()
+
+uci_check_sql = SqlSensor()
+
+uci_create_table_if_not_exists = PostgreSQLOperator
+
+
 """
 check_http >> dwd_data >> unzip >> transfor >> ge >> to_sql 
 check_sql >> create_table_if_not_exists

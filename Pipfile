@@ -8,6 +8,10 @@ pandas = "*"
 sqlalchemy = "*"
 requests = "*"
 pymongo = "*"
+great-expectations = "*"
+wheel = "*"
+setuptools = "*"
+acryl-datahub = "*"
 
 [dev-packages]
 
